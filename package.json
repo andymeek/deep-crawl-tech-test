@@ -4,10 +4,11 @@
     "version": "1.0.0",
     "main": "./dist/index.js",
     "scripts": {
+        "build": "tsc",
         "dev": "tsc --watch",
         "lint:scripts": "eslint './**/*.{ts,tsx}' --color --fix",
         "lint": "npm run lint:scripts",
-        "start": "tsc",
+        "start": "node ./build/index",
         "test": "jest ./src --watchAll=false --coverage",
         "test:watch": "npm run test --watchAll=true"
     },
