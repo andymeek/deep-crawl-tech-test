@@ -1,8 +1,8 @@
 {
-    "name": "node-boilerplate",
-    "description": "NodeJS boilerplate with: TypeScript, ESlint, Prettier & Jest",
+    "name": "deep-crawl",
+    "description": "Tech test for Deep Crawl",
     "version": "1.0.0",
-    "main": "./dist/index.js",
+    "main": "./build/index.js",
     "scripts": {
         "build": "tsc",
         "dev": "tsc --watch",
