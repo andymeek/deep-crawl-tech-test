@@ -1,0 +1,28 @@
+{
+    "name": "node-boilerplate",
+    "description": "NodeJS boilerplate with: TypeScript, ESlint, Prettier & Jest",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "scripts": {
+        "dev": "tsc --watch",
+        "lint:scripts": "eslint './**/*.{ts,tsx}' --color --fix",
+        "lint": "npm run lint:scripts",
+        "start": "tsc",
+        "test": "jest ./src"
+    },
+    "author": "Andy Meek",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^25.2.3",
+        "@types/node": "^14.0.5",
+        "@typescript-eslint/eslint-plugin": "^3.0.2",
+        "@typescript-eslint/parser": "^3.0.2",
+        "eslint": "^7.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.3",
+        "jest": "^26.0.1",
+        "prettier": "^2.0.5",
+        "ts-jest": "^26.0.0",
+        "typescript": "^3.9.3"
+    }
+}
