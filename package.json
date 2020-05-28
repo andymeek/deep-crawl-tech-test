@@ -8,7 +8,8 @@
         "lint:scripts": "eslint './**/*.{ts,tsx}' --color --fix",
         "lint": "npm run lint:scripts",
         "start": "tsc",
-        "test": "jest ./src"
+        "test": "jest ./src --watchAll=false --coverage",
+        "test:watch": "npm run test --watchAll=true"
     },
     "author": "Andy Meek",
     "license": "ISC",
